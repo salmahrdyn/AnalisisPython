@@ -17,7 +17,7 @@ def sidebar(df):
     max_date = df["dteday"].max()
     with st.sidebar:
         # Menambahkan logo perusahaan
-        st.image("https://www.brandcrowd.com/blog/wp-content/uploads/2019/06/bike-share.png")
+        st.image("https://bcassetcdn.com/social/lgxwqseyph/preview.png")
 
         def on_change():
             st.session_state.date = date
